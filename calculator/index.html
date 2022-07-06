@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calc</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="page">
+            <h1>Рассчитаем вашу суточную норму?</h1>
+            <div class="page__body body">
+                <h2>Ваш пол</h2>
+                <div class="body__sex sex">
+                    <div id="man" class="sex__item _active">Мужчина</div>
+                    <div id="woman" class="sex__item">Женщина</div>
+                </div>
+                <h2>Ваша конституция</h2>
+                <div class="body__constitushion constitushion">  
+                    <input id="weight" class="constitushion__item" placeholder="Введите рост">
+                    <input id="height" class="constitushion__item" placeholder="Введите вес">
+                    <input id="age" class="constitushion__item" placeholder="Введите возраст">
+                </div>
+                <h2>Ваша физическая активность</h2>
+                <div class="body__active active">             
+                    <div data-ratio="1.2" id="low" class="active__item _active">Низкая активность</div>
+                    <div data-ratio="1.375" id="small" class="active__item">Невысокая активность</div>
+                    <div data-ratio="1.5" id="medium" class="active__item">Умеренная активность</div>
+                    <div data-ratio="1.725" id="high" class="active__item">Высокая активность</div>
+                </div>
+                <div class="body__result">
+                    Ваша суточная норма калорий: 
+                    <div class="result">
+                        <span>2700</span> ккал
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
