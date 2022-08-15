@@ -51,7 +51,7 @@ html, body{
 }
 .page__apps{}
 .page__background{
-    background: url(/image/apps/bg.jpg) no-repeat;
+    background: url(image/apps/bg.jpg) no-repeat;
     -moz-background-size: 100%; /* Firefox 3.6+ */
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /* Opera 9.6+ */
@@ -96,7 +96,7 @@ html, body{
     font-size: 11px;
     line-height: calc(15/11*100%);
     letter-spacing: 0.96px;
-    background: url(/image/header/icon_blue.svg) right 5px no-repeat;
+    background: url(image/header/icon_blue.svg) right 5px no-repeat;
     padding: 0px 15px;
     text-transform: uppercase;
 }
@@ -137,7 +137,7 @@ color: #0054E9;
     padding: 8px 25px 11px 12px;
     border-radius: 20px;
     margin: 0 16px;
-    background-image: url(/image/header/icon_white.svg);
+    background-image: url(image/header/icon_white.svg);
     background-repeat: no-repeat;
     background-position: 90%;
 }
@@ -173,7 +173,7 @@ color: #0054E9;
     color: #fff;
     background-color: #0054E9;
     padding: 4px 29px 4px 20px;
-    background-image: url(/image/header/icon_white.svg);
+    background-image: url(image/header/icon_white.svg);
     background-repeat: no-repeat;
     background-position: 90%;
     border-radius: 10px;
@@ -183,7 +183,7 @@ color: #0054E9;
     font-size: 13px;
     line-height: 108%;
     font-weight: bold;
-    background-image: url(/image/header/icon_blue.svg);
+    background-image: url(image/header/icon_blue.svg);
     background-repeat: no-repeat;
     background-position: 100%;
     letter-spacing: 0.28px;
@@ -237,7 +237,7 @@ color: #0054E9;
     line-height: calc(14/12*100%);
     letter-spacing: 0.26px;
     color: #0054E9;
-    background-image: url(/image/header/icon_blue.svg);
+    background-image: url(image/header/icon_blue.svg);
     background-repeat: no-repeat;
     background-position: 40%;
     /* background-position: 50%; */
@@ -420,7 +420,7 @@ color: #0054E9;
     font-size: 12px;
     line-height: calc(14/12*100%);
     letter-spacing: 0.28px;
-    background-image: url(/image/header/icon_blue.svg);
+    background-image: url(image/header/icon_blue.svg);
     background-repeat: no-repeat;
     background-position: 94%;
     padding: 0px 25px 0px 0px;
@@ -449,7 +449,7 @@ color: #0054E9;
     font-size: 12px;
     line-height: calc(14/12*100%);
     letter-spacing: 0.28px;
-    background-image: url(/image/header/icon_blue.svg);
+    background-image: url(image/header/icon_blue.svg);
     background-repeat: no-repeat;
     background-position: 80%;
     width: 200px;
@@ -536,7 +536,7 @@ color: #0054E9;
     line-height: 100%;
     padding: 3px 29px 3px 20px;
     background-color: #0054E9;
-    background-image: url(/image/header/icon_white.svg);
+    background-image: url(image/header/icon_white.svg);
     background-repeat: no-repeat;
     background-position: 94%;
     border-radius: 30px;
@@ -546,7 +546,7 @@ color: #0054E9;
     font-size: 16px;
     font-weight: bold;
     line-height: calc(17.92/16*100%);
-    background-image: url(/image/header/icon_blue.svg);
+    background-image: url(image/header/icon_blue.svg);
     background-repeat: no-repeat;
     background-position: 94%;
     color: #3880ff;
